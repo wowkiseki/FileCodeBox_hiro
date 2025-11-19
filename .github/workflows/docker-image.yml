@@ -26,7 +26,7 @@ jobs:
         uses: docker/metadata-action@v5
         with:
           # GHCR 镜像名称格式通常为 ghcr.io/<owner>/<repo>
-          images: ghcr.io/${{ github.repository_owner }}/codebox:latest
+          images: ghcr.io/${{ github.repository_owner }}/codebox
           tags: |
             # 按分支生成标签 (如 main/master 分支)
             type=ref,event=branch
