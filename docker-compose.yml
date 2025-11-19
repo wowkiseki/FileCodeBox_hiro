@@ -1,7 +1,7 @@
 version: "3"
 services:
   file-code-box:
-    image: lanol/filecodebox:latest
+    image: hiro/webbox:latest
     volumes:
       - fcb-data:/app/data:rw
     restart: unless-stopped
